@@ -136,6 +136,13 @@ public class VideoProvider {
 
                         mediaList.add(buildMediaInfo(title, studio, subTitle, videoUrl, imageurl,
                                 bigImageurl, tracks));
+                        mediaList.add(buildMediaInfo("Fog Entering from Under Door", "evangoodell", "For a personal project of mine, I used a fog machine and fog chiller to have artificial fog enter eerily from under a door. Light was added behind the door to add to the overall \"mystery\" of the shot."
+                                , "http://static.videezy.com/system/resources/previews/000/000/620/original/DoorMist.mp4", "http://static.videezy.com/system/resources/thumbnails/000/000/620/small/fog-entering-from-under-door.jpg",
+                                "http://static.videezy.com/system/resources/thumbnails/000/000/620/large/fog-entering-from-under-door.jpg", null));
+                        mediaList.add(buildMediaInfo("Radio 3", "Wils", "Radio 3"
+                                , "http://icecast.omroep.nl/3fm-bb-aac", "http://static.videezy.com/system/resources/thumbnails/000/000/620/small/fog-entering-from-under-door.jpg",
+                                "http://static.videezy.com/system/resources/thumbnails/000/000/620/large/fog-entering-from-under-door.jpg", null));
+
                     }
                 }
             }
